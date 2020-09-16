@@ -5,33 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Design</title>
+    <link rel="stylesheet" href="./scss/main.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <ul class="navbar__items">
-                <li>
-                    <a href="#home" class="navbar__items--links">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#home" class="navbar__items--links">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#home" class="navbar__items--links">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#home" class="navbar__items--links">
-                        Home
-                    </a>
-                </li>
+        <!-- NAVIGATION BAR FOR WEB SITE -->
+        <nav class="navbar background">
+            <ul class="navbar__list">
+                <div class="navbar__logo">
+                    <img src="./img/lion-logo.jpg" alt="logo">
+                </div>
+                <li class="navbar__items"> <a href="#home" class="navbar__links"> Home </a> </li>
+
+                <li class="navbar__items"> <a href="#about" class="navbar__links"> About </a> </li>
+                    
+                <li class="navbar__items"> <a href="#services" class="navbar__links"> Services </a> </li>
+                    
+                <li class="navbar__items"> <a href="#contact" class="navbar__links"> Contact </a> </li>
             </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="rightNav__btn rightNav__btn-small"> Search </button>
+            </div>
         </nav>
     </header>
 </body>

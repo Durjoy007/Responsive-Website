@@ -1,0 +1,52 @@
+@import './variables';
+
+.navbar{
+    display: flex;
+
+    &__logo{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img{
+            width: 33%;
+            border: 3PX solid white;
+            border-radius: 50px;
+        }
+    }
+
+    &__list{
+        width: 50%;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+    }
+
+    &__items{
+        list-style: none;
+        padding: 26px 30px;
+    }
+
+    &__links{
+        text-decoration: none;
+        color: $text-color;
+       
+        &:hover{
+            color: $hover-text-color;
+        }
+    }
+
+    .rightNav{
+        background-color: brown;
+        width: 50%;
+        text-align: right;
+
+        &__search{
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid gray;
+            border-radius: 9px;
+        }
+    }
+}
