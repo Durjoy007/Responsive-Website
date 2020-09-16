@@ -61,7 +61,7 @@
   text-align: right;
 }
 
-.navbar .rightNav__search {
+.navbar .rightNav #search {
   padding: 5px;
   font-size: 17px;
   border: 2px solid gray;
